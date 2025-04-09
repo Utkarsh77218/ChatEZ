@@ -25,7 +25,7 @@ app.use(
 );
 
 app.use("/api/auth", authRoute);
-app.use("/api/message", messageRoute);
+app.use("/api/messages", messageRoute);
 
 app.listen(PORT, () => {
     console.log(`Server listening on PORT: ${PORT}`);
